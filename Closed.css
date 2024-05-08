@@ -1,0 +1,87 @@
+html{
+   font-size: 22px;
+   text-align: center;
+   font-family: arial;
+}
+body{
+   background-color: rgb(1, 10, 10);
+   color: aliceblue;
+   margin-top: 50px;
+}
+header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: black;
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content:  center;
+   align-items: center;
+}
+.hd{
+   font-size: 30px;
+}
+hr{
+   color: cyan;
+   position: fixed;
+   left: 5px;
+   right: 5px;
+   top: 45px;
+   margin: 0;
+   background-color: black;
+}
+.card-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+.card{
+   width: 300px;
+   background-color: black;
+   margin: 10px;
+   border-radius: 10px;
+}
+.card:hover{
+   box-shadow: 10px 10px 12px cyan;
+   background-color: rgb(1, 7, 10);
+   transition: 0.15s;
+}
+.c-bttn{
+   font-size: 20px;
+   padding: 5px 10px;
+   border: none;
+   background-color: cyan;
+   border-radius: 12px;
+   color: black;
+   margin-bottom: 5px;
+}
+.c-bttn:hover{
+   background-color: rgb(10, 10, 10);
+   color: cyan;
+   padding: 8px 15px;
+   transition: 0.15s;
+   border: 2px solid cyan;
+}
+.card img{
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   margin-bottom: 3px;
+}
+.cntnt{
+   justify-content: left;
+   padding: 7px;
+}
+.pn{
+   font-size: 22px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+   padding-bottom: 0;
+}
+.pp{
+   font-size: 22px;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Cart</title>
+        <link rel="stylesheet" href="Cart.css">
+    </head>
+<body>
+    <header>
+        <h1 class="hd">Cart</h1>
+    </header>
+    <hr>
+    <main>
+     <div class="card-container">
+        <div class="card">
+            <img src="prdct/cactus jack beanie.jpg" alt="beanie">
+            <div class="cntnt">
+              <p class="pn">Cactus Jack Beanie - Black</p>
+              <p class="pp">Ugx 28,000</p>
+              <button class="c-bttn">Remove</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prdct/extrnal hard drive.jpg" alt="hard drive">
+            <div class="cntnt">
+              <p class="pn">External Hard Drive 5TB</p>
+              <p class="pp">Ugx 150,000</p>
+              <button class="c-bttn">Remove</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prdct/duffel.jpg" alt="duffel bag">
+            <div class="cntnt">
+              <p class="pn">Casual Medium Duffel Bag - Black</p>
+              <p class="pp">Ugx 80,000</p>
+              <button class="c-bttn">Remove</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prdct/oraimo bluetooth headsets.jpg" alt="men's headsets">
+            <div class="cntnt">
+              <p class="pn">Oraimo Bluetooth Headsets - Black</p>
+              <p class="pp">Ugx 60,000</p>
+              <button class="c-bttn">Remove</button>
+            </div>
+          </div>
+     </div>
+    <br>
+<a class="bttn" href="#order">Check Out</a>
+
+     <article id="order">
+        <form action="#">
+            <fieldset>
+                <legend>Place Order</legend>
+                <p class="hdg">Order Details</p>
+                <div class="ordr">
+                    <p>Items Total:</p>
+                    <p>Amount:</p>
+                </div>
+                <br>
+                <div class="lctn">
+                <label for="location">Select Delivery Location:</label>
+              <select name="location" id="location">
+                <option value="eastern">Eastern Region</option>
+                <option value="central">Central Region</option>
+                <option value="south">Southern Region</option>
+                <option value="west">Western Region</option>
+              </div>
+              </select>
+            <div class="pay">
+              <p>Select Payment Method</p>
+              <p>
+                <input type="radio" name="pay" id="cash" value="Cash On Delivery">
+              <label for="Cash On Delivery">Cash On Delivery</label>
+              </p>
+              <p>
+                <input type="radio" name="pay" id="momo" value="Pre-pay With Mobile Money">
+              <label for="Pre-pay With Mobile Money">Pre-pay With Mobile Money</label>
+              </p>
+              <p>
+                <input type="radio" name="pay" id="card" value="Use Credit Card">
+              <label for="Use Credit Card">Use Credit Card</label>
+              </p>
+            </div>
+            <br>
+            <button class="bttn">Confirm Order</button>
+            </fieldset>
+        </form>
+     </article>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <div class="nav">
+            <img class="crt1" src="icons/home.png" alt="home">
+            <a class="nv1" href="EziHome.html">Home</a>
+          </div>
+          <div class="nav">
+            <img class="crt1" src="icons/menu.png" alt="">
+            <a class="nv2" href="CategoriesEzi.html">Categories</a>
+          </div>
+          <div class="nav">
+            <img class="crt1" src="icons/trolley.png" alt="">
+            <a class="nv3" href="Cart.html">Cart</a>
+          </div>
+    </footer>
+</body>
+</html>
+    

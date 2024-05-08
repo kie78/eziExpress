@@ -1,0 +1,224 @@
+html{
+   font-size: 22px;
+   text-align: center;
+   font-family: arial;
+}
+body{
+   background-color: rgb(1, 10, 10);
+   color: aliceblue;
+   margin-top: 50px;
+}
+header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background-color: black;
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content:  center;
+   align-items: center;
+}
+.hd{
+   font-size: 30px;
+}
+hr{
+   color: cyan;
+   position: fixed;
+   left: 5px;
+   right: 5px;
+   top: 45px;
+   margin: 0;
+   background-color: black;
+}
+.card-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 10px;
+}
+.card{
+   width: 300px;
+   background-color: black;
+   margin: 10px;
+   border-radius: 10px;
+}
+.card:hover{
+   box-shadow: 10px 10px 12px cyan;
+   background-color: rgb(1, 7, 10);
+   transition: 0.15s;
+}
+.c-bttn{
+   font-size: 20px;
+   padding: 5px 10px;
+   border: none;
+   background-color: cyan;
+   border-radius: 12px;
+   color: black;
+   margin-bottom: 5px;
+}
+.c-bttn:hover{
+   background-color: rgb(10, 10, 10);
+   color: cyan;
+   padding: 8px 15px;
+   transition: 0.15s;
+   border: 2px solid cyan;
+}
+.card img{
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   margin-bottom: 3px;
+}
+.cntnt{
+   justify-content: left;
+   padding: 7px;
+}
+.pn{
+   font-size: 22px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+   padding-bottom: 0;
+}
+.pp{
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+footer{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   height: 60px;
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   flex: 1 1 1;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav{
+   border: 2px solid  cyan;
+   background-color: rgb(10, 10, 10);
+   height: 50px;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex: 30px 1;
+   margin: 120px;
+   border-radius: 20px;
+   padding-left: 2px;
+}
+.crt1{
+   width: 30px;
+   background-color: cyan;
+   border-radius: 14px;
+   border: 0 none black;
+   margin-right: 10px;
+   padding: 5px;
+   margin-left: 5px;
+}
+.nv1 , .nv2 , .nv3 {
+   color: cyan;
+   background-color: rgb(10, 10, 10);
+   text-decoration: none;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 12px;
+   font-size: 20px;
+   text-align: center;
+   margin: 0;
+}
+.nv1:hover{
+   text-decoration: none;
+   cursor: pointer;
+   background-color: cyan;
+   color: rgb(10, 10, 10);
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 12px;
+   font-size: 25px;
+   transition: 0.15s;
+}
+.nv2:hover{
+   text-decoration: none;
+   cursor: pointer;
+   background-color: cyan;
+   color: black;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 12px;
+   font-size: 25px;
+   transition: 0.15s;
+}
+.nv3:hover{
+   text-decoration: none;
+   cursor: pointer;
+   background-color: cyan;
+   color: black;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 12px;
+   font-size: 25px;
+   transition: 0.15s;
+}
+.bttn{
+   font-size: 25px;
+   text-decoration: none;
+   background-color: cyan;
+   color: black;
+   border: none;
+   padding: 8px 15px 8px 15px;
+   border-radius: 12px;
+}
+.bttn:hover{
+   font-size: 28px;
+   text-decoration: none;
+   background-color: black;
+   color: cyan;
+   border: 2px solid cyan;
+   padding: 10px 20px 10px 20px;
+   transition: 0.15s;
+}
+article{
+   margin: 50px;
+}
+legend{
+   margin-left: 520px;
+   font-size: 30px;
+}
+.hdg{
+   font-size: 25px;
+}
+select{
+   width: 400px;
+   border: 2px solid cyan;
+   background-color: rgb(34, 34, 34);
+   border-radius: 10px;
+   height: 40px;
+   color: white;
+   font-size: 25px;
+}
+.lctn{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.ordr{
+   border: 1px solid white;
+   text-align: start;
+   padding-left: 10px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.pay{
+   border: 1px solid white;
+   text-align: start;
+   padding-left: 10px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+}
